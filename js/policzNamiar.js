@@ -69,7 +69,7 @@ function podajNamiar(){
         logWyniku += "<p id='y'>" + "y (złom stalowy) = <b>" + y.toFixed(2) + " g</b></p>";
         logWyniku += "<p id='z'>" + "z (krzem) = <b>" + z.toFixed(2) + " g</b></p>";
         logWyniku += "<p id='namiarFinal'>Co daje łącznie: " + namiar + " g<br> [" + namiar/1000 + " kg]</p><br>";
-        logWyniku += "---------------------------------------------------------------<br>";
+        logWyniku += "---------------------------------------------------------------<br><br><br>";
 
         var wT = document.getElementById("tekstWynik");
         wT.style.display = 'block';

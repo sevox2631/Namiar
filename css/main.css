@@ -4,9 +4,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+    background-image: linear-gradient(to bottom right, #E8F1F5,#E8F1F5);
     text-align: center;
-    color: #ffffcc;
+    color: #005691;
     font-family: sans-serif;
 }
 table {
@@ -20,16 +20,17 @@ table {
     box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
 }
 tr:first-child{
-    background-color: #0066ff;
+    background-color: #005691;
+    color: #E8F1F5;
 }
 table, th, td{
-    border: 1px solid white;
+    border: 1px solid gray;
     padding: 15px;
     text-align: center;
 }
 #logo{
     font-family: 'Open Sans', sans-serif;
-    color: #0047b3;
+    color: #004A7C;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 50px;
@@ -56,39 +57,39 @@ table, th, td{
     text-shadow: none;
 }
 #logo2 {
+    margin-top:-5px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
     color: #003380;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 500;
 }
 #footer {
     height: 50px;
     text-align: center;
     padding: 5px;
-    color:white;
 }
 #policz, #pokaz, #clear {
-    background-color: #29aae1;
+    background-color: #005691;
     border: 1px solid;
     border-radius: 3px;
-    padding: 15px;
-    color: white;
+    padding: 20px;
+    color: #E8F1F5;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-#policz:hover, #pokaz:hover {
+#policz:hover, #pokaz:hover, #clear:hover{
     background-color: #008CBA;
 }
 #policz, #pokaz {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 #macGlowna{
     display:none;
     font-size: 30px;
     font-weight: bold;
-    color: #0003a7;
-    background-color: dodgerblue;
+    color: #E8F1F5;
+    background-color: #005691;
     padding: 15px 0;
     -webkit-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
     -moz-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
@@ -105,12 +106,12 @@ table, th, td{
     display: block;
     text-align:center;
     padding: 20px;
-    color: darkblue;
+    color: #005691;
 }
 #tekstWynik{
     display:none;
-    background-color: dodgerblue;
-    color: darkblue;
+    background-color: #004A7C;
+    color: #E8F1F5;
     text-align:center;
     font-size: 30px;
     font-weight: bold;
@@ -123,11 +124,11 @@ table, th, td{
 #x, #y, #z{
     font-size: 25px;
     text-align: center;
-    color: darkblue;
+    color: #005691;
 }
 #namiarFinal {
     font-size: 30px;
     text-align: center;
-    color: darkblue;
+    color: #005691;
     font-weight: bold;
 }
