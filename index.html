@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+<a href="/" id="logo">Kalkulator<br></a>
+<a href="/" id="logo2">namiaru wsadu 1.0</a>
+
+<p>Przy założeniu następujących wartości : </p>
+
+<table id="tabPierwiastkow">
+  <tr>
+    <td><b>Pierwiastek [%]<b></td>
+    <td><b>Surówka</b></td>
+    <td><b>Złom stalowy</b></td>
+    <td><b>Krzem</b></td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>4.32</td>
+    <td>0.28</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Si</td>
+    <td>0.79</td>
+    <td>0.02</td>
+    <td>98.5</td>
+  </tr>
+  <tr>
+    <td>Fe</td>
+    <td>94.89</td>
+    <td>99.7</td>
+    <td>1.5</td>
+  </tr>
+</table>
+<br><br>
+<p>Program liczy namiar wsadu dla danej ilości <b>namiaru oraz udziału procentowego węgla oraz krzemu</b></p>
+<p> Poniżej wpisz wszystkie dane.</p>
+<p>(w liczbach z przecinkiem należy użyć <b>kropki</b>.)</p><br><br>
+
+Podaj namiar [g] :
+<input type="text" id="namiar" value="15000"><br><br>
+Podaj udział węgla [%] :
+<input type="text" id="wegiel" value="3.5"><br><br>
+Podaj udział krzemu [%] :
+<input type="text" id="krzem" value="2"><br><br>
+<br><br>
+
+<button id="policz" onclick="podajNamiar()">Policz namiar</button>
+
+<button id="pokaz" onclick="pokaMacierz()">Pokaż macierz</button>
+<button id="clear" onclick="wyczysc()">Wyczyść</button>
+
+<br><br><br>
+<p id="macGlowna">Macierz główna</p>
+<table id="tabelaMacierzy">
+  <tr>
+    <td>x</td>
+    <td>y</td>
+    <td>z</td>
+    <td>=</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td id="zer0"></td>
+    <td id="zer1"></td>
+    <td id="zer2"></td>
+    <td>=</td>
+    <td id="zer3"></td>
+  </tr>
+  <tr>
+    <td id="jed0"></td>
+    <td id="jed1"></td>
+    <td id="jed2"></td>
+    <td>=</td>
+    <td id="jed3"></td>
+  </tr>
+  <tr>
+    <td id="dwa0"></td>
+    <td id="dwa1"></td>
+    <td id="dwa2"></td>
+    <td>=</td>
+    <td id="dwa3"></td>
+  </tr>
+</table>
+
+
+<script src="js/policzNamiar.js"></script>
+<script src="js/pokazMacierz.js"></script>
+<p id="tekstWynik"></p>
+<p id="wynik"></p>
+<br><br><br><br><br><br><br>
+<p id="footer">Copyright &copy 2019 by Kamil Żak, Wydział Odlewnictwa, KWPI</p>
+</body>
+
+</html>

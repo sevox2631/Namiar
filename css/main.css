@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+body {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+    text-align: center;
+    color: #ffffcc;
+    font-family: sans-serif;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#tabPierwiastkow{
+    -webkit-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+}
+tr:first-child{
+    background-color: #0066ff;
+}
+table, th, td{
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+#logo{
+    font-family: 'Open Sans', sans-serif;
+    color: #0047b3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: #EDEDED 1px 2px 0;
+    position: relative;
+}
+#logo:after {
+    content:"Kalkulator";
+    position: absolute;
+    left: 6px;
+    top: 10px;
+}
+#logo:after {
+    background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+}
+#logo2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #003380;
+    text-decoration: none;
+    font-weight: 300;
+}
+#footer {
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    color:white;
+}
+#policz, #pokaz, #clear {
+    background-color: #29aae1;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#policz:hover, #pokaz:hover {
+    background-color: #008CBA;
+}
+#policz, #pokaz {
+    margin-right: 30px;
+}
+#macGlowna{
+    display:none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0003a7;
+    background-color: dodgerblue;
+    padding: 15px 0;
+    -webkit-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+}
+#tabelaMacierzy{
+    display: none;
+    border: none;
+    width: 22.6rem;
+    height: 11.3rem;
+}
+
+#wynik {
+    display: block;
+    text-align:center;
+    padding: 20px;
+    color: darkblue;
+}
+#tekstWynik{
+    display:none;
+    background-color: dodgerblue;
+    color: darkblue;
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px 0;
+    -webkit-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+    box-shadow: 14px 18px 19px -13px rgba(0,0,0,0.75);
+}
+
+#x, #y, #z{
+    font-size: 25px;
+    text-align: center;
+    color: darkblue;
+}
+#namiarFinal {
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
