@@ -33,7 +33,7 @@ table, th, td{
     color: #004A7C;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 800;
     letter-spacing: -3px;
     line-height: 1;
@@ -60,7 +60,7 @@ table, th, td{
     margin-top:-5px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
     color: #003380;
     text-decoration: none;
     font-weight: 500;
@@ -73,7 +73,7 @@ table, th, td{
 #policz, #pokaz, #clear {
     background-color: #005691;
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 20px;
     color: #E8F1F5;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
